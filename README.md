@@ -2,12 +2,12 @@
 Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 
 # Sumário
-1. COMPONENTES
+## 1. COMPONENTES
 Integrantes do grupo
 Éllen Neves: ellenosneves@gmail.com
 Sidenir Júnior: sidenirjunior27@gmail.com
 
-2.INTRODUÇÃO E MOTIVAÇAO
+## 2.INTRODUÇÃO E MOTIVAÇAO
 Este documento contém a especificação do projeto do banco de dados 
 e motivação da escolha realizada. 
 

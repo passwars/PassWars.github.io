@@ -4,11 +4,12 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 # Sumário
 
 ### 1. COMPONENTES<br>
-Integrantes do grupo<br>
+
 Éllen Oliveira Silva Neves: ellenosneves@gmail.com<br>
 Sidenir Antônio Junior: sidenirjunior27@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
+
 O programa PassWars tem como objetivo auxiliar na organização das pessoas ao guardar suas senhas de diversos sites em um local seguro e organizado. Sabendo da dificuldade que muitas pessoas enfrentam em deixar suas senhas em um único local, de acesso não público e de forma organizada, o programa guarda todas elas por categorias, cada uma sendo um site cadastrado pelo usuário, e por cadastro: cada conta armazenada pelo PassWars tem seu próprio campo de senha e foto de perfil; tudo isso organizado por ordem alfabética de modo a tornar mais fácil localizar.
  
 
@@ -18,9 +19,11 @@ O sistema do programa PassWars, para melhor funcionamento, necessita que alguns 
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+
 https://drive.google.com/open?id=1By3LfPDqnHyxvmhOzUxZZhj6BGqFh0r4<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
+
 https://drive.google.com/open?id=19ryJMsJPbMiGebQC3jXmsksLMuAwAlqC
     
     
@@ -32,62 +35,65 @@ Já ao desenvolvedor, é feito uma lista com todos os dados cadastrados, de cada
    
 
 ### 5.MODELO CONCEITUAL<br>
-    https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
+
+https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
         
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
     
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
     
-    EXEMPLO:
-    NomUser: atributo único, pois para cada usuário será armazenado um nome diferente.<br>
-    NomSobreUser: atributo único, pois para cada usuário será armazenado um sobrenome diferente.<br>
-    NomSocialUser: atributo único, pois para cada usuário será armazenado um nome social diferente (caso o tenha).<br>
-    DatNascUser: atributo único, pois para cada usuário será armazenado uma data diferente.<br>
-    DscLoginUser: atributo único, pois para cada usuário será armazenado um login diferente.<br>
-    DscEmailUser: atributo único, pois para cada usuário será armazenado um endereço de email diferente.<br>
-    NumTelUser: atributo único, pois para cada usuário será armazenado um número de telefone diferente (caso tenha).<br>
+   NomUser: atributo único, pois para cada usuário será armazenado um nome diferente.<br>
+   NomSobreUser: atributo único, pois para cada usuário será armazenado um sobrenome diferente.<br>
+   NomSocialUser: atributo único, pois para cada usuário será armazenado um nome social diferente (caso o tenha).<br>
+   DatNascUser: atributo único, pois para cada usuário será armazenado uma data diferente.<br>
+   DscLoginUser: atributo único, pois para cada usuário será armazenado um login diferente.<br>
+   DscEmailUser: atributo único, pois para cada usuário será armazenado um endereço de email diferente.<br>
+   NumTelUser: atributo único, pois para cada usuário será armazenado um número de telefone diferente (caso tenha).<br>
     
-    NomSoft: atributo que armazena o nome do software cadastrado.<br>
-    NomSoftUsuário: atributo único, pois para cada software será armazenado um nome de usuário diferente.<br>
-    DscSoftSenha: catributo único, pois para cada software será armazenado uma senha diferente.<br>
+   NomSoft: atributo que armazena o nome do software cadastrado.<br>
+   NomSoftUsuário: atributo único, pois para cada software será armazenado um nome de usuário diferente.<br>
+   DscSoftSenha: catributo único, pois para cada software será armazenado uma senha diferente.<br>
     
-    DscPergSeg: atributo que armazena a descrição da pergunta de segurança.<br>
+   DscPergSeg: atributo que armazena a descrição da pergunta de segurança.<br>
     
-    DscRespPergSeg: atributo único, pois para cada usuário será armazenado uma resposta diferente.<br>
+   DscRespPergSeg: atributo único, pois para cada usuário será armazenado uma resposta diferente.<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    UTILIZADOR: tabela que armazena informações do utilizador do sistema.<br>
-    NomUser: campo que armazena o nome do utilizador.<br>
-    NomSobreUser: campo que armazena o sobrenome do utilizador.<br>
-    NomSocialUser: campo que armazena o nome social do utilizador (caso o tenha).<br>
-    DatNascUser: campo que armazena a data de nascimento do utilizador.<br>
-    DscLoginUser: campo que armazena o nome de usuário do utilizador para o sistema.<br>
-    DscEmailUser: campo que armazena o endereço de email do utilizador.<br>
-    NumTelUser: campo que armazena o número de telefone do utilizador (caso tenha).<br>
     
-    SOFTWARE: tabela que armazena as informações do software cadastrado pelo usuário.<br>
-    NomSoft: campo que armazena o nome do software cadastrado.<br>
-    NomSoftUsuário: campo que armazena o nome de usuário do software cadastrado.<br>
-    DscSoftSenha: campo que armazena a senha do software cadastrado.<br>
+   UTILIZADOR: tabela que armazena informações do utilizador do sistema.<br>
+   NomUser: campo que armazena o nome do utilizador.<br>
+   NomSobreUser: campo que armazena o sobrenome do utilizador.<br>
+   NomSocialUser: campo que armazena o nome social do utilizador (caso o tenha).<br>
+   DatNascUser: campo que armazena a data de nascimento do utilizador.<br>
+   DscLoginUser: campo que armazena o nome de usuário do utilizador para o sistema.<br>
+   DscEmailUser: campo que armazena o endereço de email do utilizador.<br>
+   NumTelUser: campo que armazena o número de telefone do utilizador (caso tenha).<br>
     
-    PERGUNTASEG: tabela que armazena as informações das perguntas de segurança existentes no sistema.<br>
-    DscPergSeg: campo que armazena a descrição da pergunta de segurança.<br>
+   SOFTWARE: tabela que armazena as informações do software cadastrado pelo usuário.<br>
+   NomSoft: campo que armazena o nome do software cadastrado.<br>
+   NomSoftUsuário: campo que armazena o nome de usuário do software cadastrado.<br>
+   DscSoftSenha: campo que armazena a senha do software cadastrado.<br>
     
-    RESPPERGSEG: tabela que armazena as respostas dos utilizadores para as perguntas de segurança.<br>
-    DscRespPergSeg: campo que armazena a resposta para a pergunta de segurança.<br>
+   PERGUNTASEG: tabela que armazena as informações das perguntas de segurança existentes no sistema.<br>
+   DscPergSeg: campo que armazena a descrição da pergunta de segurança.<br>
+    
+   RESPPERGSEG: tabela que armazena as respostas dos utilizadores para as perguntas de segurança.<br>
+   DscRespPergSeg: campo que armazena a resposta para a pergunta de segurança.<br>
 
 ### 6	MODELO LÓGICO<br>
-       https://drive.google.com/open?id=11gjMlTB6UGasFUo0OB50VPYJ6quajgJX
+   
+   https://drive.google.com/open?id=11gjMlTB6UGasFUo0OB50VPYJ6quajgJX
 
 ### 7	MODELO FÍSICO<br>
-        https://drive.google.com/open?id=1ebTvNdbjerIDUH38FR3MMCJngkG2nBjS     
+   
+   https://drive.google.com/open?id=1ebTvNdbjerIDUH38FR3MMCJngkG2nBjS     
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        https://drive.google.com/open?id=152NPaQnEEwsp7aYIoSZsX1cP3OsbeqQH
+   
+   https://drive.google.com/open?id=152NPaQnEEwsp7aYIoSZsX1cP3OsbeqQH
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 

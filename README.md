@@ -34,7 +34,7 @@ Já ao desenvolvedor, é feito uma lista com todos dados cadastrados, de cada us
 >## Marco de Entrega 01 em: (24/03/2018)<br>
 
 ### 5.MODELO CONCEITUAL<br>
-    https://drive.google.com/open?id=1FTqKjpsA5j1ETP4e9yYNQUzuhxo8b-Rw  
+    https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
         
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
@@ -57,18 +57,14 @@ Já ao desenvolvedor, é feito uma lista com todos dados cadastrados, de cada us
 
 >## Marco de Entrega 01 em: (12/05/2018)<br>
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+       https://drive.google.com/open?id=11gjMlTB6UGasFUo0OB50VPYJ6quajgJX
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)          
+        https://drive.google.com/open?id=1ebTvNdbjerIDUH38FR3MMCJngkG2nBjS     
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físic
-        b) formato .SQL
+        https://drive.google.com/open?id=1TKErcPWyEbI21_47_g7YJeIsl-sIc5j4hadDFhPBZGg
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
@@ -76,6 +72,7 @@ Já ao desenvolvedor, é feito uma lista com todos dados cadastrados, de cada us
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
+        
 #### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
         (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)

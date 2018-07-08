@@ -25,13 +25,11 @@ https://drive.google.com/open?id=19ryJMsJPbMiGebQC3jXmsksLMuAwAlqC
     
     
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
 O sistema fornece ao usuário uma relação com os sites cadastrados, no qual será organizado os nomes de usuários, senhas e fotos de perfil. Além disso, será fornecido ao usuário uma alternativa de nova senha, onde será utilizada uma seleção aleatória de caracteres aleatórios de todas as senhas já cadastradas anteriormente.
-Já ao desenvolvedor, é feito uma lista com todos dados cadastrados, de cada usuário, sendo assim: usuário utilizados passa acesso ao PassWars, senha, nome, sobrenome, pergunta de segurança e resposta da mesma.
-
-    b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
->## Marco de Entrega 01 em: (24/03/2018)<br>
+Já ao desenvolvedor, é feito uma lista com todos os dados cadastrados, de cada usuário, sendo assim: nome de usuário utilizado para acesso ao PassWars, senha, nome, sobrenome, nome social, telefone, data de nascimento, pergunta de segurança e resposta da mesma.
+   
 
 ### 5.MODELO CONCEITUAL<br>
     https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
@@ -39,7 +37,7 @@ Já ao desenvolvedor, é feito uma lista com todos dados cadastrados, de cada us
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
-## Marco de Entrega 01 em: (20/04/2018)<br>
+    
 #### 5.2 DECISÕES DE PROJETO
     [atributo]: [descrição da decisão]
     
@@ -49,13 +47,26 @@ Já ao desenvolvedor, é feito uma lista com todos dados cadastrados, de cada us
     b) justifique!
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
+    UTILIZADOR: tabela que armazena informações do utilizador do sistema.<br>
+    NomUser: campo que armazena o nome do utilizador.<br>
+    NomSobreUser: campo que armazena o sobrenome do utilizador.<br>
+    NomSocialUser: campo que armazena o nome social do utilizador (caso o tenha).<br>
+    DatNascUser: campo que armazena a data de nascimento do utilizador.<br>
+    DscLoginUser: campo que armazena o nome de usuário do utilizador para o sistema.<br>
+    DscEmailUser: campo que armazena o endereço de email do utilizador.<br>
+    NumTelUser: campo que armazena o número de telefone do utilizador (caso tenha).<br>
     
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+    SOFTWARE: tabela que armazena as informações do software cadastrado pelo usuário.<br>
+    NomSoft: campo que armazena o nome do software cadastrado.<br>
+    NomSoftUsuário: campo que armazena o nome de usuário do software cadastrado.<br>
+    DscSoftSenha: campo que armazena a senha do software cadastrado.<br>
+    
+    PERGUNTASEG: tabela que armazena as informações das perguntas de segurança existentes no sistema.<br>
+    DscPergSeg: campo que armazena a descrição da pergunta de segurança.<br>
+    
+    RESPPERGSEG: tabela que armazena as respostas dos utilizadores para as perguntas de segurança.<br>
+    DscRespPergSeg: campo que armazena a resposta para a pergunta de segurança.<br>
 
->## Marco de Entrega 01 em: (12/05/2018)<br>
 ### 6	MODELO LÓGICO<br>
        https://drive.google.com/open?id=11gjMlTB6UGasFUo0OB50VPYJ6quajgJX
 
@@ -64,7 +75,7 @@ Já ao desenvolvedor, é feito uma lista com todos dados cadastrados, de cada us
         
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        https://drive.google.com/open?id=1TKErcPWyEbI21_47_g7YJeIsl-sIc5j4hadDFhPBZGg
+        https://drive.google.com/open?id=152NPaQnEEwsp7aYIoSZsX1cP3OsbeqQH
 
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 

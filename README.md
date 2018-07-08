@@ -42,9 +42,21 @@ Já ao desenvolvedor, é feito uma lista com todos os dados cadastrados, de cada
     [atributo]: [descrição da decisão]
     
     EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+    NomUser: atributo único, pois para cada usuário será armazenado um nome diferente.<br>
+    NomSobreUser: atributo único, pois para cada usuário será armazenado um sobrenome diferente.<br>
+    NomSocialUser: atributo único, pois para cada usuário será armazenado um nome social diferente (caso o tenha).<br>
+    DatNascUser: atributo único, pois para cada usuário será armazenado uma data diferente.<br>
+    DscLoginUser: atributo único, pois para cada usuário será armazenado um login diferente.<br>
+    DscEmailUser: atributo único, pois para cada usuário será armazenado um endereço de email diferente.<br>
+    NumTelUser: atributo único, pois para cada usuário será armazenado um número de telefone diferente (caso tenha).<br>
+    
+    NomSoft: atributo que armazena o nome do software cadastrado.<br>
+    NomSoftUsuário: atributo único, pois para cada software será armazenado um nome de usuário diferente.<br>
+    DscSoftSenha: catributo único, pois para cada software será armazenado uma senha diferente.<br>
+    
+    DscPergSeg: atributo que armazena a descrição da pergunta de segurança.<br>
+    
+    DscRespPergSeg: atributo único, pois para cada usuário será armazenado uma resposta diferente.<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     UTILIZADOR: tabela que armazena informações do utilizador do sistema.<br>

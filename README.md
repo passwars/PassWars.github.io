@@ -36,11 +36,7 @@ Já ao desenvolvedor, é feito uma lista com todos os dados cadastrados, de cada
    
       b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
      
->A quantidade de softwares cadastrados no sistema.
-A quantidade de utilizadores do sistema.
-Os cinco softwares mais cadastrados no sistema.
-A quantidade de pessoas que cadastraram um número de telefone em sua conta no sistema.
-As perguntas de segurança mais escolhidas pelos usuários quando cadastrando-se no sistema.
+>A quantidade de softwares cadastrados no sistema; a quantidade de utilizadores do sistema; os cinco softwares mais cadastrados no sistema; a quantidade de pessoas que cadastraram um número de telefone em sua conta no sistema; as perguntas de segurança mais escolhidas pelos usuários quando cadastrando-se no sistema.
 
 ### 5. MODELO CONCEITUAL<br>
 

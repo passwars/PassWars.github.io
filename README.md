@@ -10,12 +10,12 @@ Sidenir Antônio Junior: sidenirjunior27@gmail.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 
-O programa PassWars tem como objetivo auxiliar na organização das pessoas ao guardar suas senhas de diversos sites em um local seguro e organizado. Sabendo da dificuldade que muitas pessoas enfrentam em deixar suas senhas em um único local, de acesso não público e de forma organizada, o programa guarda todas elas por categorias, cada uma sendo um site cadastrado pelo usuário, e por cadastro: cada conta armazenada pelo PassWars tem seu próprio campo de senha e foto de perfil; tudo isso organizado por ordem alfabética de modo a tornar mais fácil localizar.
+>O programa PassWars tem como objetivo auxiliar na organização das pessoas ao guardar suas senhas de diversos sites em um local seguro e organizado. Sabendo da dificuldade que muitas pessoas enfrentam em deixar suas senhas em um único local, de acesso não público e de forma organizada, o programa guarda todas elas por categorias, cada uma sendo um site cadastrado pelo usuário, e por cadastro: cada conta armazenada pelo PassWars tem seu próprio campo de senha e foto de perfil; tudo isso organizado por ordem alfabética de modo a tornar mais fácil localizar.
  
 
 ### 3.MINI-MUNDO Novo<br>
 
-O sistema do programa PassWars, para melhor funcionamento, necessita que alguns dados sejam informados pelo usuário. Entre esses dados estão: nome, sobrenome, idade, endereço eletrônico, senha, pergunta de segurança e resposta da mesma, sites cadastrados, usuários e senhas cadastrados em cada um. 
+>O sistema do programa PassWars, para melhor funcionamento, necessita que alguns dados sejam informados pelo usuário. Entre esses dados estão: nome, sobrenome, idade, endereço eletrônico, senha, pergunta de segurança e resposta da mesma, sites cadastrados, usuários e senhas cadastrados em cada um. 
 
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
@@ -30,7 +30,8 @@ https://drive.google.com/open?id=19ryJMsJPbMiGebQC3jXmsksLMuAwAlqC
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
-O sistema fornece ao usuário uma relação com os sites cadastrados, no qual será organizado os nomes de usuários, senhas e fotos de perfil. Além disso, será fornecido ao usuário uma alternativa de nova senha, onde será utilizada uma seleção aleatória de caracteres aleatórios de todas as senhas já cadastradas anteriormente.
+    
+>O sistema fornece ao usuário uma relação com os sites cadastrados, no qual será organizado os nomes de usuários, senhas e fotos de perfil. Além disso, será fornecido ao usuário uma alternativa de nova senha, onde será utilizada uma seleção aleatória de caracteres aleatórios de todas as senhas já cadastradas anteriormente.
 Já ao desenvolvedor, é feito uma lista com todos os dados cadastrados, de cada usuário, sendo assim: nome de usuário utilizado para acesso ao PassWars, senha, nome, sobrenome, nome social, telefone, data de nascimento, pergunta de segurança e resposta da mesma.
    
 
@@ -44,7 +45,7 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
     
 #### 5.2 DECISÕES DE PROJETO
     
-   NomUser: atributo único, pois para cada usuário será armazenado um nome diferente.<br>
+   >NomUser: atributo único, pois para cada usuário será armazenado um nome diferente.<br>
    NomSobreUser: atributo único, pois para cada usuário será armazenado um sobrenome diferente.<br>
    NomSocialUser: atributo único, pois para cada usuário será armazenado um nome social diferente (caso o tenha).<br>
    DatNascUser: atributo único, pois para cada usuário será armazenado uma data diferente.<br>
@@ -62,7 +63,7 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     
-   UTILIZADOR: tabela que armazena informações do utilizador do sistema.<br>
+   >UTILIZADOR: tabela que armazena informações do utilizador do sistema.<br>
    NomUser: campo que armazena o nome do utilizador.<br>
    NomSobreUser: campo que armazena o sobrenome do utilizador.<br>
    NomSocialUser: campo que armazena o nome social do utilizador (caso o tenha).<br>

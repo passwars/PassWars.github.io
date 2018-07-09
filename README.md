@@ -53,11 +53,11 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
    DscEmailUser: atributo único, pois para cada usuário será armazenado um endereço de email diferente.<br>
    NumTelUser: atributo único, pois para cada usuário será armazenado um número de telefone diferente (caso tenha).<br>
     
-   NomSoft: atributo que armazena o nome do software cadastrado.<br>
+   >NomSoft: atributo que armazena o nome do software cadastrado.<br>
    NomSoftUsuário: atributo único, pois para cada software será armazenado um nome de usuário diferente.<br>
    DscSoftSenha: catributo único, pois para cada software será armazenado uma senha diferente.<br>
     
-   DscPergSeg: atributo que armazena a descrição da pergunta de segurança.<br>
+   >DscPergSeg: atributo que armazena a descrição da pergunta de segurança.<br>
     
    DscRespPergSeg: atributo único, pois para cada usuário será armazenado uma resposta diferente.<br>
 
@@ -72,15 +72,15 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
    DscEmailUser: campo que armazena o endereço de email do utilizador.<br>
    NumTelUser: campo que armazena o número de telefone do utilizador (caso tenha).<br>
     
-   SOFTWARE: tabela que armazena as informações do software cadastrado pelo usuário.<br>
+   >SOFTWARE: tabela que armazena as informações do software cadastrado pelo usuário.<br>
    NomSoft: campo que armazena o nome do software cadastrado.<br>
    NomSoftUsuário: campo que armazena o nome de usuário do software cadastrado.<br>
    DscSoftSenha: campo que armazena a senha do software cadastrado.<br>
     
-   PERGUNTASEG: tabela que armazena as informações das perguntas de segurança existentes no sistema.<br>
+   >PERGUNTASEG: tabela que armazena as informações das perguntas de segurança existentes no sistema.<br>
    DscPergSeg: campo que armazena a descrição da pergunta de segurança.<br>
     
-   RESPPERGSEG: tabela que armazena as respostas dos utilizadores para as perguntas de segurança.<br>
+   >RESPPERGSEG: tabela que armazena as respostas dos utilizadores para as perguntas de segurança.<br>
    DscRespPergSeg: campo que armazena a resposta para a pergunta de segurança.<br>
 
 ### 6	MODELO LÓGICO<br>

@@ -8,26 +8,26 @@ Trabalho desenvolvido durante a disciplina de Banco de Dados do Integrado
 Éllen Oliveira Silva Neves: ellenosneves@gmail.com<br>
 Sidenir Antônio Junior: sidenirjunior27@gmail.com<br>
 
-### 2.INTRODUÇÃO E MOTIVAÇAO<br>
+### 2. INTRODUÇÃO E MOTIVAÇAO<br>
 
 >O programa PassWars tem como objetivo auxiliar na organização das pessoas ao guardar suas senhas de diversos sites em um local seguro e organizado. Sabendo da dificuldade que muitas pessoas enfrentam em deixar suas senhas em um único local, de acesso não público e de forma organizada, o programa guarda todas elas por categorias, cada uma sendo um site cadastrado pelo usuário, e por cadastro: cada conta armazenada pelo PassWars tem seu próprio campo de senha e foto de perfil; tudo isso organizado por ordem alfabética de modo a tornar mais fácil localizar.
  
 
-### 3.MINI-MUNDO Novo<br>
+### 3. MINI-MUNDO Novo<br>
 
 >O sistema do programa PassWars, para melhor funcionamento, necessita que alguns dados sejam informados pelo usuário. Entre esses dados estão: nome, sobrenome, idade, endereço eletrônico, senha, pergunta de segurança e resposta da mesma, sites cadastrados, usuários e senhas cadastrados em cada um. 
 
 
-### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
+### 4. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
 https://drive.google.com/open?id=1By3LfPDqnHyxvmhOzUxZZhj6BGqFh0r4<br>
 
-#### 4.1 TABELA DE DADOS DO SISTEMA:
+#### 4.1. TABELA DE DADOS DO SISTEMA:
 
 https://drive.google.com/open?id=19ryJMsJPbMiGebQC3jXmsksLMuAwAlqC
     
     
-#### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
+#### 4.2. QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
 
     a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes?
     
@@ -35,15 +35,15 @@ https://drive.google.com/open?id=19ryJMsJPbMiGebQC3jXmsksLMuAwAlqC
 Já ao desenvolvedor, é feito uma lista com todos os dados cadastrados, de cada usuário, sendo assim: nome de usuário utilizado para acesso ao PassWars, senha, nome, sobrenome, nome social, telefone, data de nascimento, pergunta de segurança e resposta da mesma.
    
 
-### 5.MODELO CONCEITUAL<br>
+### 5. MODELO CONCEITUAL<br>
 
 https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
         
-#### 5.1 Validação do Modelo Conceitual
+#### 5.1. Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
     
-#### 5.2 DECISÕES DE PROJETO
+#### 5.2. DECISÕES DE PROJETO
     
    >NomUser: atributo único, pois para cada usuário será armazenado um nome diferente.<br>
    NomSobreUser: atributo único, pois para cada usuário será armazenado um sobrenome diferente.<br>
@@ -61,7 +61,7 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
     
    >DscRespPergSeg: atributo único, pois para cada usuário será armazenado uma resposta diferente.<br>
 
-#### 5.3 DESCRIÇÃO DOS DADOS 
+#### 5.3. DESCRIÇÃO DOS DADOS 
     
    >UTILIZADOR: tabela que armazena informações do utilizador do sistema.<br>
    NomUser: campo que armazena o nome do utilizador.<br>
@@ -83,56 +83,59 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
    >RESPPERGSEG: tabela que armazena as respostas dos utilizadores para as perguntas de segurança.<br>
    DscRespPergSeg: campo que armazena a resposta para a pergunta de segurança.<br>
 
-### 6	MODELO LÓGICO<br>
+### 6.	MODELO LÓGICO<br>
    
    https://drive.google.com/open?id=11gjMlTB6UGasFUo0OB50VPYJ6quajgJX
 
-### 7	MODELO FÍSICO<br>
+### 7.	MODELO FÍSICO<br>
    
    https://drive.google.com/open?id=1ebTvNdbjerIDUH38FR3MMCJngkG2nBjS     
         
-### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-#### 8.1 DETALHAMENTO DAS INFORMAÇÕES
+### 8.	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+#### 8.1. DETALHAMENTO DAS INFORMAÇÕES
    
    https://drive.google.com/open?id=152NPaQnEEwsp7aYIoSZsX1cP3OsbeqQH
 
-#### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
+#### 8.2. INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
         (create para tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
         
-#### 8.3 INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
+#### 8.3. INCLUSÃO DO SCRIPT PARA EXCLUSÃO DE TABELAS EXISTENTES, CRIAÇÃO DE TABELA NOVAS E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 
         (Drop table + Create de tabelas e estruturas de dados + dados a serem inseridos)
         b) Criar um novo banco de dados para testar a restauracao 
         (em caso de falha na restauração o grupo não pontuará neste quesito)
         c) formato .SQL
 
+### 9.	TABELAS E PRINCIPAIS CONSULTAS<br>
 
-### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
     OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mostrando os resultados.<br>
-#### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-#### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
-#### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
+    
+#### 9.1.	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
+#### 9.2.	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 4)<br>
+#### 9.3.	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E TABELAS OU CAMPOS RENOMEADOS (Mínimo 11)
+
     a) Criar 5 consultas que envolvam os operadores lógicos AND, OR e Not
     b) Criar no mínimo 3 consultas com operadores aritméticos 
     c) Criar no mínimo 3 consultas com operação de renomear nomes de campos ou tabelas
-#### 9.4	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
+    
+#### 9.4.	CONSULTAS QUE USAM OPERADORES LIKE E DATAS (Mínimo 12) <br>
+
     a) Criar outras 5 consultas que envolvam like ou ilike
     b) Criar uma consulta para cada tipo de função data apresentada.
 
-
-    
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
 
+
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Mínimo 6)<br>
+
         a) Uma junção que envolva todas as tabelas possuindo no mínimo 3 registros no resultado
         b) Outras junções que o grupo considere como sendo as de principal importância para o trabalho
         
-
 ## Marco de Entrega 02 em: (16/06/2018)<br>
 ### ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO SEMESTRAL (Mínimo 6 e Máximo 10)<br>
 <br>
@@ -142,12 +145,18 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
 #### 9.7	CONSULTAS COM GROUP BY E FUNÇÕES DE AGRUPAMENTO (Mínimo 6)<br>
 
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Mínimo 6)<br>
+
         a) Uma junção que envolva Self Join
         b) Outras junções com views que o grupo considere como sendo de relevante importância para o trabalho
+        
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
 
+
+
 #### 9.11	LISTA DE CODIGOS DAS FUNÇÕES E TRIGGERS<br>
+
         Detalhamento sobre funcionalidade de cada código.
         a) Objetivo
         b) Código do objeto (função/trigger)

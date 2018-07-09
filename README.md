@@ -20,11 +20,11 @@ Sidenir Antônio Junior: sidenirjunior27@gmail.com<br>
 
 ### 4. RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-https://drive.google.com/open?id=1By3LfPDqnHyxvmhOzUxZZhj6BGqFh0r4<br>
+PassWars.github.io/PassWars Interface - Éllen Neves e Sidenir Junior.pdf<br>
 
 #### 4.1. TABELA DE DADOS DO SISTEMA:
 
-https://drive.google.com/open?id=19ryJMsJPbMiGebQC3jXmsksLMuAwAlqC
+PassWars.github.io/PassWars Tabela - Éllen Neves e Sidenir Junior.pdf
     
     
 #### 4.2. QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
@@ -40,7 +40,7 @@ Já ao desenvolvedor, é feito uma lista com todos os dados cadastrados, de cada
 
 ### 5. MODELO CONCEITUAL<br>
 
-https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
+   PassWars.github.io/PassWars Conceitual - Éllen Neves e Sidenir Junior.pdf
         
 #### 5.1. Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
@@ -88,16 +88,16 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
 
 ### 6.	MODELO LÓGICO<br>
    
-   https://drive.google.com/open?id=11gjMlTB6UGasFUo0OB50VPYJ6quajgJX
+   PassWars.github.io/PassWars Lógico - Éllen Neves e Sidenir Junior.pdf
 
 ### 7.	MODELO FÍSICO<br>
    
-   https://drive.google.com/open?id=1ebTvNdbjerIDUH38FR3MMCJngkG2nBjS     
+   PassWars.github.io/PassWars Físico - Éllen Neves e Sidenir Júnior.pdf   
         
 ### 8.	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1. DETALHAMENTO DAS INFORMAÇÕES
    
-   https://drive.google.com/open?id=152NPaQnEEwsp7aYIoSZsX1cP3OsbeqQH
+   PassWars.github.io/Script PassWars - Éllen Neves e Sidenir Junior.sql
 
 #### 8.2. INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         a) Junção dos scripts anteriores em um único script 

@@ -59,7 +59,7 @@ https://drive.google.com/open?id=1nAnY86TPsI_Hoy3LzzM2k58zVlLTqpzk
     
    >DscPergSeg: atributo que armazena a descrição da pergunta de segurança.<br>
     
-   DscRespPergSeg: atributo único, pois para cada usuário será armazenado uma resposta diferente.<br>
+   >DscRespPergSeg: atributo único, pois para cada usuário será armazenado uma resposta diferente.<br>
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     

@@ -34,6 +34,13 @@ https://drive.google.com/open?id=19ryJMsJPbMiGebQC3jXmsksLMuAwAlqC
 >O sistema fornece ao usuário uma relação com os sites cadastrados, no qual será organizado os nomes de usuários, senhas e fotos de perfil. Além disso, será fornecido ao usuário uma alternativa de nova senha, onde será utilizada uma seleção aleatória de caracteres aleatórios de todas as senhas já cadastradas anteriormente.
 Já ao desenvolvedor, é feito uma lista com todos os dados cadastrados, de cada usuário, sendo assim: nome de usuário utilizado para acesso ao PassWars, senha, nome, sobrenome, nome social, telefone, data de nascimento, pergunta de segurança e resposta da mesma.
    
+      b) Crie uma lista com os 10 principais relatórios que poderão ser obtidos por meio do sistema proposto!
+     
+>A quantidade de softwares cadastrados no sistema.
+A quantidade de utilizadores do sistema.
+Os cinco softwares mais cadastrados no sistema.
+A quantidade de pessoas que cadastraram um número de telefone em sua conta no sistema.
+As perguntas de segurança mais escolhidas pelos usuários quando cadastrando-se no sistema.
 
 ### 5. MODELO CONCEITUAL<br>
 
